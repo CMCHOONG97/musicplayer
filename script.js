@@ -1,8 +1,8 @@
 const songs = [
     { name: "Complicated", src: "songs/Avril Lavigne - Complicated.mp3" },
-    { name: "Girlfriend", src: "songs/songs/Avril Lavigne - Girlfriend.mp3" },
-    { name: "Here's to Never Growing Up", src: "songs/songs/Avril Lavigne - Here's to Never Growing Up.mp3" },
-    { name: "Rock N Roll", src: "songs/songs/Avril Lavigne - Rock N Roll.mp3" }
+    { name: "Girlfriend", src: "songs/Avril Lavigne - Girlfriend.mp3" },
+    { name: "Here's to Never Growing Up", src: "songs/Avril Lavigne - Here's to Never Growing Up.mp3" },
+    { name: "Rock N Roll", src: "songs/Avril Lavigne - Rock N Roll.mp3" }
     // 继续添加你的歌曲
 ];
 
