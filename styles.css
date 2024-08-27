@@ -11,11 +11,6 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    width: 300px;
-}
-
-input[type="file"] {
-    margin-bottom: 20px;
 }
 
 audio {
@@ -30,10 +25,13 @@ ul {
 
 li {
     margin: 10px 0;
-    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
     color: #333;
 }
 
-li:hover {
+a:hover {
     color: #007BFF;
 }
