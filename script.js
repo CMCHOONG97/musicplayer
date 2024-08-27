@@ -1,14 +1,15 @@
 const songs = [
-    { name: "Song 1", src: "songs/song1.mp3" },
-    { name: "Song 2", src: "songs/song2.mp3" },
-    { name: "Song 3", src: "songs/song3.mp3" },
+    { name: "Complicated", src: "songs/Avril Lavigne - Complicated.mp3" },
+    { name: "Girlfriend", src: "songs/songs/Avril Lavigne - Girlfriend.mp3" },
+    { name: "Here's to Never Growing Up", src: "songs/songs/Avril Lavigne - Here's to Never Growing Up.mp3" },
+    { name: "Rock N Roll", src: "songs/songs/Avril Lavigne - Rock N Roll.mp3" }
     // 继续添加你的歌曲
 ];
 
 const audioPlayer = document.getElementById("audio-player");
 const songList = document.getElementById("song-list");
 
-let currentSongIndex = 0;
+let currentSongIndex = 1;
 
 function loadSongs() {
     songs.forEach((song, index) => {
